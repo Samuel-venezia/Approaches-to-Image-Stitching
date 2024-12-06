@@ -12,7 +12,7 @@ This repo contrains the code and data related to the conference paper, Feature-b
 | 1 & 2 | SuperPoint | Non Maximum Suppression radius = 4|
 | 2 & 3 | SuperGlue | Sinkhorn Iterations = 20 |
 | 3 | BF | Distance = Euclidean |
-| 3 BF KNN | Distance = Euclidean |
+| 3 | BF KNN | Distance = Euclidean |
 | 4 | RANSAC & USAC | Threshold = 5.0 |
 
 \begin{tabular}{|l|c|c|} \hline 
