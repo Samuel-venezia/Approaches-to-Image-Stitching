@@ -6,6 +6,14 @@ This repo contrains the code and data related to the conference paper, Feature-b
 | ------------- | ------------- | ------------- | 
 | 1 & 2          | SIFT  | Number of Octaves = 3 |
 | 1 & 2           | ORB  | Scale Factor = 1.2 |
+| 1 & 2 | BRISK | Detection Threshold = 30 |
+| 1 & 2 | AKAZE | Number of Descriptor Channels = 3|
+| 2 | FREAK | Pattern Scale = 22.0 |
+| 1 & 2 | SuperPoint | Non Maximum Suppression radius = 4|
+| 2 & 3 | SuperGlue | Sinkhorn Iterations = 20 |
+| 3 | BF | Distance = Euclidean |
+| 3 BF KNN | Distance = Euclidean |
+| 4 | RANSAC & USAC | Threshold = 5.0 |
 
 \begin{tabular}{|l|c|c|} \hline 
           Stages&Algorithms& Parameters\\ \hline 
