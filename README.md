@@ -2,6 +2,8 @@
 ## Samuel Venezia, Sonya Coleman, Dermot Kerr, and John Fegan
 This repo contrains the code and data related to the conference paper, Feature-based Approaches to Multi-View Image Stitching.
 
+
+### Algorithms at each stage and their Parameters
 | Stages        | Algorithm     | Paramters     |
 | ------------- | ------------- | ------------- | 
 | 1 & 2          | SIFT  | Number of Octave Layers=3, <br>Contrast Threshold=0.04,<br> Edge Threshold=10, <br>Sigma=1.6 |
