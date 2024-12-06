@@ -2,6 +2,11 @@
 ## Samuel Venezia, Sonya Coleman, Dermot Kerr, and John Fegan
 This repo contrains the code and data related to the conference paper, Feature-based Approaches to Multi-View Image Stitching.
 
+| Stages        | Algorithm     | Paramters     |
+| ------------- | ------------- | ------------- | 
+| 1 & 2          | SIFT  | Number of Octaves = 3 |
+| 1 & 2           | ORB  | Scale Factor = 1.2 |
+
 \begin{tabular}{|l|c|c|} \hline 
           Stages&Algorithms& Parameters\\ \hline 
           1 \& 2&SIFT& \makecell{Number of Octave Layers=3, \\Contrast Threshold=0.04,\\ Edge Threshold=10, \\Sigma=1.6}\\ \hline 
