@@ -1,6 +1,6 @@
 # Feature-based Approaches to Multi-View Image Stitching
 ## Samuel Venezia, Sonya Coleman, Dermot Kerr, and John Fegan
-This repo contrains the code and data related to the conference paper, Feature-based Approaches to Multi-View Image Stitching.
+This repo contains the code and data related to the conference paper, Feature-based Approaches to Multi-View Image Stitching.
 
 
 ### Algorithms at each stage and their Parameters
@@ -16,3 +16,29 @@ This repo contrains the code and data related to the conference paper, Feature-b
 | 3 | BF | Distance = Euclidean |
 | 3 | BF KNN | Distance = Euclidean, <br>K=2, <br>Matching Distance=0.75 |
 | 4 | RANSAC & USAC | Threshold=5.0 <br> Confidence=0.995 |
+
+### Image Stitching
+Running the main.py file will generate the stitched images via the multi-resolution hierarchical stitching structure with 4 constituent images.
+
+### Adobe Panoramic Dataset
+The panoramic dataset can be found here: https://sourceforge.net/projects/adobedatasets.adobe/files/
+It needs to be in the following directory format:
+adobe_panoramic
+├── carmel
+│   └── carmel-00
+│   └── carmel-01
+│   └── carmel-02
+│   └── etc
+├── diamondhead
+│   └── diamondhead-00
+│   └── diamondhead-01
+│   └── diamondhead-02
+│   └── etc
+├── fishbowl
+├── goldengate
+├── halfdome
+├── hotel
+├── office
+├── rio
+├── shanghai
+└── yard
