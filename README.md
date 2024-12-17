@@ -24,23 +24,23 @@ Running the main.py file will generate the stitched images via the multi-resolut
 The panoramic dataset can be found here: https://sourceforge.net/projects/adobedatasets.adobe/files/
 It needs to be in the following directory format:
 '
-adobe_panoramic
-├── carmel
-│   └── carmel-00
-│   └── carmel-01
-│   └── carmel-02
-│   └── etc
-├── diamondhead
-│   └── diamondhead-00
-│   └── diamondhead-01
-│   └── diamondhead-02
-│   └── etc
-├── fishbowl
-├── goldengate
-├── halfdome
-├── hotel
-├── office
-├── rio
-├── shanghai
-└── yard
+' adobe_panoramic
+' ├── carmel
+' │   └── carmel-00
+' │   └── carmel-01
+' │   └── carmel-02
+' │   └── etc
+' ├── diamondhead
+' │   └── diamondhead-00
+' │   └── diamondhead-01
+' │   └── diamondhead-02
+' │   └── etc
+' ├── fishbowl
+' ├── goldengate
+' ├── halfdome
+' ├── hotel
+' ├── office
+' ├── rio
+' ├── shanghai
+' └── yard
 '
