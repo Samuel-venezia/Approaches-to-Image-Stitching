@@ -4,7 +4,6 @@ This repo contains the code and data related to the conference paper, Feature-ba
 
 <details>
     <summary>Table of algorithmic parameters used within the paper</summary>
-### Algorithms at each stage and their Parameters
     
 | Stages        | Algorithm     | Paramters     |
 | ------------- | ------------- | ------------- | 
