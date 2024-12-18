@@ -47,3 +47,41 @@ It needs to be in the following directory format:
 
 </details>
 '''
+
+
+<details>
+
+<summary>Here is an overview of the final folder structure</summary>
+
+
+    PoseTrack21
+    ├── images                              # contains all images  
+    │   ├── train
+    │   ├── val
+    ├── posetrack_data                      # contains annotations for pose reid tracking
+    │   ├── train
+    │   │   ├── 000001_bonn_train.json
+    │   │   ├── ...
+    │   ├── val
+    │       ├── ...
+    ├── posetrack_mot                       # contains annotations for multi-object tracking 
+    │   ├── mot
+    │   │   ├── train
+    │   │   │   ├── 000001_bonn_train
+    │   │   │   │   ├── image_info.json
+    │   │   │   │   ├── gt
+    │   │   │   │       ├── gt.txt          # ground truth annotations in mot format
+    │   │   │   │       ├── gt_kpts.txt     # ground truth poses for each frame
+    │   │   │   ├── ...
+    │   │   ├── val
+    ├── posetrack_person_search             # person search annotations
+    │   ├── query.json
+    │   ├── train.json
+    │   ├── val.json
+    ├── occluded_posetrack_reid             # new occluded-posetrack-reid annotations
+    │   ├── images                          # image crops generated when running KPR for the first time
+    │   ├── masks                           # human parsing labels
+    │   ├── train_dataset_sampling.json     # which detection samples to use for training
+    │   ├── val_dataset_sampling.json       # which detection samples to use for evaluation, with a query/gallery split
+
+</details>
