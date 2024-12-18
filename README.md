@@ -2,7 +2,8 @@
 ## Samuel Venezia, Sonya Coleman, Dermot Kerr, and John Fegan
 This repo contains the code and data related to the conference paper, Feature-based Approaches to Multi-View Image Stitching.
 
-
+<details>
+    <summary>Table of algorithmic parameters used within the paper</summary>
 ### Algorithms at each stage and their Parameters
 | Stages        | Algorithm     | Paramters     |
 | ------------- | ------------- | ------------- | 
@@ -16,6 +17,7 @@ This repo contains the code and data related to the conference paper, Feature-ba
 | 3 | BF | Distance = Euclidean |
 | 3 | BF KNN | Distance = Euclidean, <br>K=2, <br>Matching Distance=0.75 |
 | 4 | RANSAC & USAC | Threshold=5.0 <br> Confidence=0.995 |
+</details>
 
 ### Image Stitching
 Running the main.py file will generate the stitched images via the multi-resolution hierarchical stitching structure with 4 constituent images.
