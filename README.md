@@ -4,7 +4,8 @@ This repo contains the code and data related to the conference paper, Feature-ba
 
 <details>
     <summary>Table of algorithmic parameters used within the paper</summary>
-        ### Algorithms at each stage and their Parameters
+### Algorithms at each stage and their Parameters
+    
         | Stages        | Algorithm     | Paramters     |
         | ------------- | ------------- | ------------- | 
         | 1 & 2          | SIFT  | Number of Octave Layers=3, <br>Contrast Threshold=0.04,<br> Edge Threshold=10, <br>Sigma=1.6 |
