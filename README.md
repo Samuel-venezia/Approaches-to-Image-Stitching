@@ -22,10 +22,9 @@ Running the main.py file will generate the stitched images via the multi-resolut
 
 ### Adobe Panoramic Dataset
 The panoramic dataset can be found here: https://sourceforge.net/projects/adobedatasets.adobe/files/
-
+It needs to be in the following directory format:
 '''
 <details>
-  <summary>It needs to be in the following directory format </summary>
   adobe_panoramic
   ├── carmel
   │   └── carmel-00
